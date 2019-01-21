@@ -9,11 +9,11 @@ def f(x):
 xval = np.arange(-5.0, 5.1, 0.1)
 yval = []
 
-yval = f(xval)
-print(yval)
-
-mplot.plot(xval, )
-mplot.ylabel('f(x)')
-mplot.xlabel('x')
-mplot.show()
+if sys.argv[1] == "1":
+	yval = f(xval)
+	print(yval)
+	mplot.plot(xval, yval)
+	mplot.ylabel('f(x)')
+	mplot.xlabel('x')
+	mplot.show()
 
