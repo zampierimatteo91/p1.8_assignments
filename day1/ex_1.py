@@ -3,7 +3,7 @@ import numpy as np
 import sys
 import math
 
-xval = np.linspace(-5, 5, num = 101)
+xval = np.linspace(-3, 3, num = 101)
 yval = []
 
 if not sys.argv[1:]:
