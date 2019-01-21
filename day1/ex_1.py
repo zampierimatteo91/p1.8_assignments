@@ -6,7 +6,7 @@ import sys
 def f(x):
 	return(x)
 
-xval = np.arange(-5.0, 5.1, 0.1)
+xval = np.linspace(-5, 5, num = 101)
 yval = []
 
 if sys.argv[1] == "1":
