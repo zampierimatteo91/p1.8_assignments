@@ -17,3 +17,11 @@ if sys.argv[1] == "1":
 	mplot.xlabel('x')
 	mplot.show()
 
+elif sys.argv[1] == "2":
+	for i in xval:
+		yval.append(i**2)
+	print(yval)
+	mplot.plot(xval, yval)
+	mplot.ylabel('f(x)')
+	mplot.xlabel('x')
+	mplot.show()
