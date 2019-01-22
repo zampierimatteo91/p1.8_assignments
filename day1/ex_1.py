@@ -37,6 +37,7 @@ elif sys.argv[1] == "2":
 	mplot.ylabel('f(x)')
 	mplot.xlabel('x')
 	mplot.title('y = x**2')
+	mplot.show()
 
 elif sys.argv[1] == "3":
 	for i in xval:
@@ -46,6 +47,7 @@ elif sys.argv[1] == "3":
 	mplot.ylabel('f(x)')
 	mplot.xlabel('x')
 	mplot.title('y = x**3')
+	mplot.show()
 
 elif sys.argv[1] == "4":
 	for i in xval:
@@ -75,6 +77,7 @@ elif sys.argv[1] == "6":
 	mplot.ylabel('f(x)')
 	mplot.xlabel('x')
 	mplot.title('y = tan(x)')
+	mplot.show()
 
 elif sys.argv[1] == "7":
 	for i in xval:
